@@ -12,3 +12,7 @@ window.addEventListener('scroll', function(){
         headerEl.classList.remove("active");
     }
 });
+
+// span 요소 노드 가져오기
+const spanEl = document.querySelector("main h2 span");
+// 화면에 표시할 문장 배열
