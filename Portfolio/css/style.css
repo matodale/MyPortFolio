@@ -553,6 +553,9 @@ section.contact .contact-me .right button{
     main p{
         width: 100%;
     }
+    main button.mouse{
+        display: none;
+    }
     section .container{
         width:360px;
     }
