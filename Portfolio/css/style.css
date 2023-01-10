@@ -1,4 +1,4 @@
-@charset "utf-8";
+@charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Varela+Round&display=swap'); 
 /* 헤더 css*/
 header{
@@ -411,7 +411,7 @@ section.contact .contact-me .right button{
 .footer li{
     display: inline;
     padding: 0 10px;
-    background: url(../img/bar.gif) no-repeat 0 2px;
+    background:no-repeat 0 2px;
     
 }
 .footer li a strong{
