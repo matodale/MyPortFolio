@@ -1,0 +1,67 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 640px;
+    width: 100%;
+    margin: 0 auto;
+}
+.container h1{
+    max-width: 640px;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    position: absolute;
+    top: 150px;
+    left: 22%;
+    color: beige;
+    z-index: 1000;
+}
+
+.container .album{
+    max-width: 640px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.container .album .images{
+    display: flex; /* 이미지 좌우 배치입니다. */
+    position: relative;
+    height: 440px;
+    left: 0%;
+    transition: transform 0.7s; /* 천천히 이동하게  */
+}
+.container .album .images img{
+    width: 100%;
+    height: 100%;
+}
+
+.container .sliderBtn{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.container .sliderBtn button, 
+.container .sliderBtn button:active, 
+.container .sliderBtn button:focus{
+    width: 100px;
+    height: 30px;
+    border: none;
+    color: white;
+    background-color: teal;
+    outline: none;
+}
+.container .sliderBtn button:disabled{
+    background-color: gray;
+}
+.container .sliderBtn .prev:hover,
+.container .sliderBtn .next:hover{
+    background-color: turquoise;
+}
+
+
+
